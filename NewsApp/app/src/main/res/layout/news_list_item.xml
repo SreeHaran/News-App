@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/section_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textColor="#263238"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            tools:text="Section" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="end|bottom"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            tools:text="date published" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="end|bottom"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            tools:text="time published" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/headlines_names"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#B71C1C"
+        android:textSize="32sp"
+        tools:text="headlines" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/author"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/author_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/author"
+            android:gravity="bottom"
+            android:padding="8dp"
+            android:textSize="16sp"
+            android:textStyle="italic|bold"
+            tools:text="Author name" />
+
+    </RelativeLayout>
+</LinearLayout>

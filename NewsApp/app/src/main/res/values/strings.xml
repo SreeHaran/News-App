@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">News App</string>
+
+    <string name="no_news">No news found</string>
+
+    <string name="no_internet_connection">
+        Unable to connect the Internet.
+        Try again Later</string>
+    <string name="author">Author:-</string>
+</resources>
