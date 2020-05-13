@@ -136,7 +136,7 @@ public final class QueryUtils {
         return newsArrayList;
     }
 
-    public static List<News> fetchEarthquakeData(String requestUrl) {
+    public static List<News> fetchNewsData(String requestUrl) {
         // Create URL object
         URL url = createUrl(requestUrl);
 
@@ -148,11 +148,11 @@ public final class QueryUtils {
             Log.e("Query Utils", "Problem making the HTTP request.", e);
         }
 
-        // Extract relevant fields from the JSON response and create a list of {@link Earthquake}s
-        List<News> earthquakes = extractNews(jsonResponse);
+        // Extract relevant fields from the JSON response and create a list of {@link News}s
+        List<News> news = extractNews(jsonResponse);
 
-        // Return the list of {@link Earthquake}s
-        return earthquakes;
+        // Return the list of {@link News}s
+        return news;
     }
 
 }
