@@ -4,6 +4,12 @@ This is the final project of udacity's android basics nanodegree program.
 ## Description
 This is an android app, which lets the users to see the latest news in the mobile. Whenever the user clicks on any of the News headlines, the user will be directed to a web page contains the whole news. Thank you.
 
+## Screenshots
+
+  [<img align="left" src="assets/Screenshot_1.jpg" width="275px">](assets/Screenshot_1.jpg)
+  [<img  src="assets/Screenshot_2.jpg" width="275px">](assets/Screenshot_2.jpg)
+  
+  
 ## License
 MIT License
 
